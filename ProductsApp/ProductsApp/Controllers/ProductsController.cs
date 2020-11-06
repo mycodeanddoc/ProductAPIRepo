@@ -11,9 +11,9 @@ namespace ProductsApp.Controllers
     {
         Product[] products = new Product[]
         {
-            new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
-            new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Product { Id = 1, Name = "Lemon Soup", Category = "Soup", Price = 9 },
+            new Product { Id = 2, Name = "Diamond Ring", Category = "Jewelery", Price = 1500.75M },
+            new Product { Id = 3, Name = "Acer Predator X", Category = "Computer", Price = 105.99M }
         };
 
         public IEnumerable<Product> GetAllProducts()
